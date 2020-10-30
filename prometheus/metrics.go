@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/prometheus/client_golang/api/prometheus/v1"
+	"github.com/kiali/kiali/prometheus/internalmetrics/client_golang/api/prometheus/v1"
 	"github.com/prometheus/common/model"
 
 	"github.com/kiali/kiali/log"

@@ -1,0 +1,44 @@
+module github.com/kiali/kiali
+
+go 1.15
+
+require (
+	github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973
+	github.com/davecgh/go-spew v1.1.1-0.20170626231645-782f4967f2dc
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/ghodss/yaml v0.0.0-20150909031657-73d445a93680
+	github.com/gogo/protobuf v1.2.1-0.20181231100452-8e4a75f11384
+	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
+	github.com/golang/protobuf v1.2.0
+	github.com/google/btree v0.0.0-20160524151835-7d79101e329e
+	github.com/google/gofuzz v0.0.0-20161122191042-44d81051d367
+	github.com/googleapis/gnostic v0.0.0-20170729233727-0c5108395e2d
+	github.com/gorilla/mux v1.7.0
+	github.com/gregjones/httpcache v0.0.0-20170728041850-787624de3eb7
+	github.com/hashicorp/go-version v0.0.0-20180322230233-23480c066577
+	github.com/hashicorp/golang-lru v0.0.0-20160207214719-a0d98a5f2880
+	github.com/json-iterator/go v0.0.0-20180612202835-f2b4162afba3
+	github.com/matttproud/golang_protobuf_extensions v1.0.2-0.20181231171920-c182affec369
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
+	github.com/modern-go/reflect2 v0.0.0-20180320133207-05fbef0ca5da
+	github.com/openshift/api v0.0.0-20180830153656-5ad8479f64f1
+	github.com/peterbourgon/diskv v2.0.1+incompatible
+	github.com/pmezard/go-difflib v0.0.0-20151028094244-d8ed2627bdf0
+	github.com/prometheus/client_golang v0.9.2
+	github.com/prometheus/client_model v0.0.0-20190129233127-fd36f4220a90
+	github.com/prometheus/common v0.0.0-20181126121408-4724e9255275
+	github.com/prometheus/procfs v0.0.0-20190203183350-488faf799f86
+	github.com/stretchr/objx v0.1.2-0.20190204135624-d3a9fb181056
+	github.com/stretchr/testify v1.2.2-0.20180319223459-c679ae2cc0cb
+	golang.org/x/crypto v0.0.0-20180222182404-49796115aa4b
+	golang.org/x/net v0.0.0-20181201002055-351d144fa1fc
+	golang.org/x/sys v0.0.0-20171031081856-95c657629925
+	golang.org/x/text v0.0.0-20170810154203-b19bf474d317
+	golang.org/x/time v0.0.0-20161028155119-f51c12702a4d
+	gopkg.in/inf.v0 v0.9.0
+	gopkg.in/yaml.v2 v2.0.0-20160928153709-a5b47d31c556
+	k8s.io/api v0.0.0-20180712090710-2d6f90ab1293
+	k8s.io/apimachinery v0.0.0-20180621070125-103fd098999d
+	k8s.io/client-go v8.0.0+incompatible
+	k8s.io/kube-openapi v0.0.0-20180620173706-91cfa479c814
+)

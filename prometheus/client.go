@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/prometheus/client_golang/api"
-	"github.com/prometheus/client_golang/api/prometheus/v1"
 	"github.com/prometheus/common/model"
 
 	"github.com/kiali/kiali/config"
 	"github.com/kiali/kiali/log"
 	"github.com/kiali/kiali/prometheus/internalmetrics"
+	"github.com/kiali/kiali/prometheus/internalmetrics/client_golang/api"
+	"github.com/kiali/kiali/prometheus/internalmetrics/client_golang/api/prometheus/v1"
 	"github.com/kiali/kiali/util"
 )
 
